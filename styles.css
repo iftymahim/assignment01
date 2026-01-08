@@ -71,6 +71,7 @@ body{
     font-size: 72px;
     font-weight: bold;
     margin: 16px;
+    text-transform: capitalize;
  }
 
  .banner-text p{
@@ -113,4 +114,114 @@ body{
  .btn-02 i{
     margin-right: 5px;
  }
- 
+
+ /* notes section */
+
+ .notes{
+    text-align: center;
+ }
+
+ .notes .notes-container h2{
+    font-size: 48px;
+    font-weight: bold;
+     margin-bottom: 16px;
+ }
+
+ .notes .notes-container p{
+    color: #627382;
+    font-size: 16px;
+}
+
+.notes-info{
+    display: flex;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 44px;
+    
+}
+
+.notes-card{
+   
+    text-align: center;
+    width: 322px;
+    height: 300px;
+    gap: 24px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.08);
+    padding-top: 70px;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #f95555;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.icon-circle img {
+  width: 32px;
+  height: 32px;
+}
+
+.notes-card h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+
+.notes-card p{
+    color: #627382;
+    font-size: 16px;
+}
+
+/* early access section */
+
+.early-access{
+  padding: 120px 0;
+}
+.access-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+
+}
+
+.knowledge .checklist-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   margin: 0;
+}
+.knowledge{
+    padding-top: 102px;
+}
+.knowledge .text{
+    color: #30b868;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.knowledge .text01{
+   color: #627382;
+   font-size: 16px;
+
+}
+.knowledge h2{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+.access-container .knowledge .main-img{
+    width: 600px;
+    height: 600px;
+}
+
