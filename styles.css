@@ -8,7 +8,7 @@ body{
     margin: 24px 120px;
 }
 
-.sidebar ul{
+.sidebar .features{
     display: flex;
     list-style: none;
     gap: 32px;
@@ -125,6 +125,7 @@ body{
     font-size: 48px;
     font-weight: bold;
      margin-bottom: 16px;
+     text-transform: capitalize;
  }
 
  .notes .notes-container p{
@@ -172,6 +173,7 @@ body{
     font-size: 24px;
     font-weight: 600;
     color: #001931;
+    text-transform: capitalize;
 }
 
 .notes-card p{
@@ -179,7 +181,7 @@ body{
     font-size: 16px;
 }
 
-/* early access section */
+/* design section */
 
 .design-section{
   padding: 120px 0;
@@ -223,5 +225,39 @@ body{
 .design-container .knowledge .main-img{
     width: 600px;
     height: 600px;
+}
+
+
+/* early access section */
+
+.early-access{
+    
+    text-align: center;
+}
+.access-container{
+    background-color: #F7F6F2;
+    margin: 0 120px;
+}
+.access-container h2{
+    color: #001931;
+    font-size: 40px;
+    padding-top: 80px;
+    text-transform: capitalize;
+}
+.access-container .early-text{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-top: 16px;
+}
+
+.access-container i{
+    margin-left: 1px;
+}
+
+.subtext {
+  font-size: 16px;
+  color: #627382;
+  line-height: 20px;
 }
 
