@@ -233,6 +233,7 @@ body{
 .early-access{
     
     text-align: center;
+    margin-bottom: 120px;
 }
 .access-container{
     background-color: #F7F6F2;
@@ -259,5 +260,55 @@ body{
   font-size: 16px;
   color: #627382;
   line-height: 20px;
+  padding-bottom: 80px;
 }
 
+/* footer class */
+
+.footer-class{
+     background-color: #001931;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1200px;
+  margin: 0 10px;
+  padding: 60px 120px; 
+}
+
+#social {
+  margin-right:-450px ;
+}
+
+.footer-card h5{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.footer-container #social img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(229, 231, 235, 0.2);
+  margin: 30px 120px; 
+}
+
+
+
+.site-footer{
+    text-align: center;
+    color: #fafafa;
+    font-size: 16px;
+    padding-bottom: 30px;
+   
+}
