@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+/* navigation bar css */
 .sidebar{
     display: flex;
     justify-content: space-between;
@@ -20,3 +24,42 @@
     font-size: 16px;
     font-weight: 600;
 }
+
+/* banner section css */
+
+.banner{
+    background-image: url(./assets/hero-bg.png);
+    margin-top: 34px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   width: auto;
+   height: 674px;
+   text-align: center;
+ }
+
+ .banner-class{
+    padding: 115px 120px;
+    
+ }
+
+ .banner-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    width: 229px;
+    height: 35px;
+    margin: 0 auto;
+    color: #30b868;
+ }
+
+ .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #30b868;
+    margin-right: 10px;
+ }
